@@ -22,20 +22,6 @@
 
     <!-- your app's js -->
     <script>
-        // kick off the platform web client
-        Ionic.io();
-
-        // this will give you a fresh user or the previously saved 'current user'
-        var user = Ionic.User.current();
-        console.log(user);
-        // if the user doesn't have an id, you'll need to give it one.
-        if (!user.id) {
-          console.log('user has no id');
-          user.id = Ionic.User.anonymousId();
-            //persist the user
-            user.save();
-            // user.id = 'your-custom-user-id';
-        }
 
         
     </script>
